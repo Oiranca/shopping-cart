@@ -1,0 +1,14 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "color-hex-length": "short",
+    "color-named": "never",
+    "color-no-invalid-hex": true,
+    "function-url-quotes": "always",
+    "value-keyword-case": null,
+    "color-function-notation": null,
+    "alpha-value-notation": null,
+    "media-feature-range-notation": null,
+    "comment-whitespace-inside": "always"
+  }
+}

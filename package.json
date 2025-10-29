@@ -1,0 +1,33 @@
+{
+  "name": "html-css-template",
+  "version": "1.0.0",
+  "description": "Clean HTML CSS template with linting configuration",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npm run lint:html && npm run lint:css && npm run lint:js",
+    "lint:html": "htmlhint *.html",
+    "lint:css": "stylelint \"src/**/*.css\"",
+    "lint:js": "eslint \"src/**/*.js\"",
+    "format": "prettier --write \"**/*.{html,css,js,json,md}\"",
+    "format:check": "prettier --check \"**/*.{html,css,js,json,md}\"",
+    "dev": "echo \"Open index.html in browser for development\"",
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "template",
+    "frontend",
+    "responsive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.35.0",
+    "htmlhint": "^1.7.1",
+    "prettier": "^3.6.2",
+    "stylelint": "^16.24.0",
+    "stylelint-config-standard": "^39.0.0"
+  }
+}
