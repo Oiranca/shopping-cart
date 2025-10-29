@@ -1,33 +1,61 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="HTML CSS Template" />
-    <meta name="keywords" content="template, html, css" />
-    <meta name="author" content="Your Name" />
-    <title>HTML CSS Template</title>
-
-    <!-- CSS -->
+    <meta name="description" content="Galería de productos y carrito de compras" />
+    <title>Tienda - Carrito de Compras</title>
     <link rel="stylesheet" href="src/css/main.css" />
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico" />
   </head>
   <body>
-    <!-- Header -->
     <header>
-      <!-- Navigation content here -->
+      <div class="container">
+        <h1>Tienda Online</h1>
+        <button id="cart-toggle" class="cart-toggle" aria-label="Ver carrito">
+          🛒 Carrito (<span id="cart-count">0</span>)
+        </button>
+      </div>
     </header>
 
-    <!-- Main Content -->
     <main>
-      <!-- Main content here -->
+      <div class="container">
+        <section class="products-section">
+          <h2>Productos</h2>
+          <div id="products-grid" class="products-grid"></div>
+        </section>
+
+        <aside id="cart-sidebar" class="cart-sidebar">
+          <div class="cart-header">
+            <h2>Carrito de Compras</h2>
+            <button id="cart-close" class="cart-close" aria-label="Cerrar carrito">×</button>
+          </div>
+          <div id="cart-items" class="cart-items"></div>
+          <div class="cart-footer">
+            <div class="cart-total">
+              <strong>Total: <span id="cart-total">0.00</span> €</strong>
+            </div>
+            <button id="clear-cart" class="btn btn-danger">Vaciar Carrito</button>
+          </div>
+        </aside>
+      </div>
     </main>
 
-    <!-- Footer -->
-    <footer>
-      <!-- Footer content here -->
-    </footer>
+    <div id="modal-overlay" class="modal-overlay">
+      <div class="modal">
+        <div class="modal-header">
+          <h3 id="modal-title">Confirmar</h3>
+          <button id="modal-close" class="modal-close" aria-label="Cerrar modal">×</button>
+        </div>
+        <div class="modal-body">
+          <p id="modal-message"></p>
+        </div>
+        <div class="modal-footer">
+          <button id="modal-cancel" class="btn btn-secondary">Cancelar</button>
+          <button id="modal-confirm" class="btn btn-primary">Confirmar</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/js/main.js"></script>
   </body>
 </html>
