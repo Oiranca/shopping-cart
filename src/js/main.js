@@ -9,6 +9,7 @@ const cartTotal = document.getElementById('cart-total');
 const cartToggle = document.getElementById('cart-toggle');
 const cartClose = document.getElementById('cart-close');
 const clearCartBtn = document.getElementById('clear-cart');
+const checkoutBtn = document.getElementById('checkout-btn');
 const modalOverlay = document.getElementById('modal-overlay');
 const modalTitle = document.getElementById('modal-title');
 const modalMessage = document.getElementById('modal-message');
@@ -40,7 +41,7 @@ function renderProducts() {
         <p class="product-description">${product.description}</p>
         <div class="product-footer">
           <span class="product-price">${product.price.toFixed(2)} €</span>
-          <button class="btn btn-primary add-to-cart" data-id="${product.id}">
+          <button class="button button-primary add-to-cart" data-id="${product.id}">
             Agregar al carrito
           </button>
         </div>
@@ -208,6 +209,26 @@ cartClose.addEventListener('click', () => {
 });
 
 clearCartBtn.addEventListener('click', clearCart);
+
+checkoutBtn.addEventListener('click', () => {
+  if (cart.length === 0) {
+    showModal('Carrito vacío', 'Agrega productos al carrito antes de comprar.', null, true);
+    return;
+  }
+  
+  const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  showModal(
+    '¡Compra realizada!', 
+    `Tu compra de ${total.toFixed(2)} € ha sido procesada con éxito. ¡Gracias por tu compra!`,
+    () => {
+      cart = [];
+      updateCart();
+      cartSidebar.classList.remove('active');
+      closeModal();
+    },
+    false
+  );
+});
 
 modalClose.addEventListener('click', closeModal);
 modalCancel.addEventListener('click', closeModal);

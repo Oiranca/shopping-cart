@@ -4,139 +4,139 @@
     "name": "Portátil Pro",
     "description": "Potente portátil con 16GB de RAM y almacenamiento SSD",
     "price": 1299.99,
-    "image": "https://pixabay.com/get/g25cf016b2441be9495422f0914b6c7d91dde3cd6507fbeffea346e03acc8435abfc59cfb4f33a297956d0ca13d25b38eafe0e0459d14f977566918614fdf144a_1280.jpg"
+    "image": "assets/laptop.webp"
   },
   {
     "id": 2,
     "name": "Ratón Inalámbrico",
     "description": "Ratón inalámbrico ergonómico con seguimiento de precisión",
     "price": 29.99,
-    "image": "https://pixabay.com/get/g298fc91eccef56abf2e3396ab4b3ee611dce37aaa0bb275e1c6f6200aedbb507ed2d4eacb2b6a16f7fe6d6ca25f46f9d_1280.jpg"
+    "image": "assets/mouse.webp"
   },
   {
     "id": 3,
     "name": "Teclado Mecánico",
     "description": "Teclado mecánico RGB con switches azules",
     "price": 89.99,
-    "image": "https://pixabay.com/get/g9f05ec40a220d02d9aa3939b2d363e51a1f1379875afb15093a923fa0ac30c75ddd34b24a74160a761e7c7bfd797c6c1c248301b3db20b5753432e7a9d8741e7_1280.jpg"
+    "image": "assets/mechanical-keyboard.webp"
   },
   {
     "id": 4,
     "name": "Monitor 27 Pulgadas",
     "description": "Monitor 4K Ultra HD con panel IPS",
     "price": 399.99,
-    "image": "https://pixabay.com/get/g2e89e73415a59c7a26db902b7248e771effe92e28e3c8a3e69a53cd3f992df6c4de83211f520d2abbfc16f770f94707c_1280.jpg"
+    "image": "assets/monitor.webp"
   },
   {
     "id": 5,
     "name": "Micrófono USB",
     "description": "Micrófono USB con cancelación de ruido activa",
     "price": 49.99,
-    "image": "https://pixabay.com/get/g26be9bf01022a43142b403b226c54573c91589c79a11db55b2c28692c5bf410f15ecf8054121b705d18e6aaa6bd704f93de7032819c07edb09a7fa3ff94de35b_1280.jpg"
+    "image": "assets/micro-phone.webp"
   },
   {
     "id": 6,
     "name": "Cámara Web HD",
     "description": "Cámara web 1080p con micrófono incorporado",
     "price": 79.99,
-    "image": "https://pixabay.com/get/g107fd5a5b9dc665b3fb21a585f3e3d0c096481ae16e81f8645b3849bbd44ca1f309e643cd823b0898bffb38353f4e62e470b8a72ccbd7d30caced5b743432e3c64c380f793305bead4ca851ff683c73d_640.jpg"
+    "image": "assets/webcam.webp"
   },
   {
     "id": 7,
     "name": "Auriculares Inalámbricos",
     "description": "Auriculares Bluetooth con cancelación de ruido activa",
     "price": 159.99,
-    "image": "https://via.placeholder.com/300x200?text=Auriculares"
+    "image": "assets/headphone.webp"
   },
   {
     "id": 8,
     "name": "Altavoz Bluetooth",
     "description": "Altavoz portátil con batería de larga duración",
     "price": 69.99,
-    "image": "https://via.placeholder.com/300x200?text=Altavoz"
+    "image": "assets/speaker.webp"
   },
   {
     "id": 9,
-    "name": "Tablet 10 Pulgadas",
-    "description": "Tablet Android con pantalla Full HD y 64GB de almacenamiento",
+    "name": "Ipad",
+    "description": "Ipad con pantalla Full HD y 128GB de almacenamiento",
     "price": 249.99,
-    "image": "https://via.placeholder.com/300x200?text=Tablet"
+    "image": "assets/ipad.webp"
   },
   {
     "id": 10,
     "name": "Disco Duro Externo",
     "description": "Disco duro externo de 1TB USB 3.0",
     "price": 59.99,
-    "image": "https://pixabay.com/get/g64fb44de9874f976dcc91bfda957563070c2a0f0e772e5a8a6e143bd99bba542267c386f496d79878d83c6d184d150c159ba62b6f6aafaf836e4ee8360ead094_1280.jpg"
+    "image": "assets/hard-disk.webp"
   },
   {
     "id": 11,
     "name": "Cargador Inalámbrico",
     "description": "Base de carga inalámbrica rápida para smartphones",
     "price": 24.99,
-    "image": "https://via.placeholder.com/300x200?text=Cargador"
+    "image": "assets/charger.webp"
   },
   {
     "id": 12,
-    "name": "Protector de Pantalla",
-    "description": "Protector de pantalla de vidrio templado para smartphone",
-    "price": 14.99,
-    "image": "https://via.placeholder.com/300x200?text=Protector"
+    "name": "Smartwatch",
+    "description": "Smartwach con monitor de ritmo cardíaco y GPS",
+    "price": 214.99,
+    "image": "assets/smartwatch.webp"
   },
   {
     "id": 13,
-    "name": "Funda para Portátil",
-    "description": "Funda resistente al agua para portátil de 15 pulgadas",
+    "name": "Mochila para Portátil",
+    "description": "Mochila resistente al agua para portátil de 15 pulgadas",
     "price": 34.99,
-    "image": "https://via.placeholder.com/300x200?text=Funda"
+    "image": "assets/backpack.webp"
   },
   {
     "id": 14,
-    "name": "Adaptador HDMI",
-    "description": "Adaptador HDMI a USB-C compatible con 4K",
+    "name": "Cable HDMI",
+    "description": "Cable HDMI 2.0 de alta velocidad de 2 metros",
     "price": 19.99,
-    "image": "https://via.placeholder.com/300x200?text=Adaptador"
+    "image": "assets/hdmi.webp"
   },
   {
     "id": 15,
-    "name": "Soporte para Monitor",
-    "description": "Brazos articulados para monitor con ajuste de altura",
-    "price": 89.99,
-    "image": "https://via.placeholder.com/300x200?text=Soporte"
+    "name": "Soporte para Bicicleta",
+    "description": "Soporte para movil en bicicleta con rotación de 360 grados",
+    "price": 39.99,
+    "image": "assets/support.webp"
   },
   {
     "id": 16,
     "name": "Alfombrilla de Ratón",
-    "description": "Alfombrilla de gaming con diseño RGB y superficie deslizante",
+    "description": "Alfombrilla de ratón con reposamuñecas ergonómico",
     "price": 29.99,
-    "image": "https://via.placeholder.com/300x200?text=Alfombrilla"
+    "image": "assets/mouse-pad.webp"
   },
   {
     "id": 17,
-    "name": "Estación de Carga",
-    "description": "Estación de carga múltiple para varios dispositivos",
-    "price": 44.99,
-    "image": "https://via.placeholder.com/300x200?text=Estación"
+    "name": "Cable de Carga",
+    "description": "Cable de carga múltiple para varios dispositivos",
+    "price": 34.99,
+    "image": "assets/charging-cable.webp"
   },
   {
     "id": 18,
-    "name": "MicroSD 128GB",
-    "description": "Tarjeta de memoria microSD de 128GB clase 10",
+    "name": "MicroSD 64GB",
+    "description": "Tarjeta de memoria microSD de 64GB",
     "price": 18.99,
-    "image": "https://via.placeholder.com/300x200?text=MicroSD"
+    "image": "assets/microSD.webp"
   },
   {
     "id": 19,
     "name": "Cable USB-C",
     "description": "Cable USB-C de carga rápida de 2 metros",
     "price": 12.99,
-    "image": "https://via.placeholder.com/300x200?text=Cable"
+    "image": "assets/usb-c.webp"
   },
   {
     "id": 20,
     "name": "Lámpara LED",
-    "description": "Lámpara LED de escritorio con luz ajustable y USB",
+    "description": "Lámpara LED de para el móvil con luz ajustable y USB",
     "price": 39.99,
-    "image": "https://via.placeholder.com/300x200?text=Lámpara"
+    "image": "assets/lamp.webp"
   }
 ]
