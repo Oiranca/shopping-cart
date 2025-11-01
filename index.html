@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Galería de productos y carrito de compras" />
+    <meta
+      name="description"
+      content="Galería de productos y carrito de compras"
+    />
     <title>Tienda - Carrito de Compras</title>
     <link rel="stylesheet" href="src/css/main.css" />
   </head>
@@ -27,15 +30,25 @@
         <aside id="cart-sidebar" class="cart-sidebar">
           <div class="cart-header">
             <h2>Carrito de Compras</h2>
-            <button id="cart-close" class="cart-close" aria-label="Cerrar carrito">×</button>
+            <button
+              id="cart-close"
+              class="cart-close"
+              aria-label="Cerrar carrito"
+            >
+              ×
+            </button>
           </div>
           <div id="cart-items" class="cart-items"></div>
           <div class="cart-footer">
             <div class="cart-total">
               <strong>Total: <span id="cart-total">0.00</span> €</strong>
             </div>
-            <button id="checkout-btn" class="button button-primary">Comprar</button>
-            <button id="clear-cart" class="button button-danger">Vaciar Carrito</button>
+            <button id="checkout-btn" class="button button-primary">
+              Comprar
+            </button>
+            <button id="clear-cart" class="button button-danger">
+              Vaciar Carrito
+            </button>
           </div>
         </aside>
       </div>
@@ -45,14 +58,24 @@
       <div class="modal">
         <div class="modal-header">
           <h3 id="modal-title">Confirmar</h3>
-          <button id="modal-close" class="modal-close" aria-label="Cerrar modal">×</button>
+          <button
+            id="modal-close"
+            class="modal-close"
+            aria-label="Cerrar modal"
+          >
+            ×
+          </button>
         </div>
         <div class="modal-body">
           <p id="modal-message"></p>
         </div>
         <div class="modal-footer">
-          <button id="modal-cancel" class="button button-secondary">Cancelar</button>
-          <button id="modal-confirm" class="button button-primary">Confirmar</button>
+          <button id="modal-cancel" class="button button-secondary">
+            Cancelar
+          </button>
+          <button id="modal-confirm" class="button button-primary">
+            Confirmar
+          </button>
         </div>
       </div>
     </div>
