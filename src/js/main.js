@@ -191,7 +191,7 @@ function showModal(title, message, callback, autoClose = false) {
   if (autoClose) {
     setTimeout(() => {
       closeModal();
-    }, 2000);
+    }, 4000);
   }
 }
 
